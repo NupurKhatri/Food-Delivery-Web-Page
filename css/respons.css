@@ -1,0 +1,203 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ #navbar{
+     background-color: black;
+     opacity: 0.7;
+ }
+ img{
+    width: 20% ;
+    height:80%;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+#logo{
+    margin: 24px 34px;
+}
+#logo img{
+    height: 80px;
+    width: 80px;
+    margin: -30px 18px;
+    border-radius: 20px;
+
+}
+nav ul{
+    display: flex;
+    font-family: sans-serif;
+}
+ul{
+    display: flex;
+    margin: 12px -2px;
+
+}
+#navbar ul li{
+    margin: 26px 12px;
+    padding: -3px;
+    list-style: none;
+
+}
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    color:white;
+    border-radius: 10px;
+}
+#navbar ul li a:hover{
+    background-color:darkmagenta;
+    color:white;
+}
+#home {
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    padding: 3px 200px;
+    align-items: center;
+    background: url("../images/wooden.jpg");
+    color: white;
+    height: 350px;
+    /* width: 100%; */
+    opacity: 0.89;
+    z-index: -1; 
+}
+home h1{
+    color: white;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* height: 100px; */
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 0.85rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#services{
+    display: flex;
+    margin: 34px;
+
+}
+#services .box{
+    border: 3px solid brown;
+    padding: 34px;
+    margin: 3px 55px;
+    border-radius: 15px;
+   
+}
+#services .box img{
+    height: 97px;
+    margin: auto;
+    display: block;
+
+}
+#services h2{
+    text-align: center;
+}
+.service-container h1{
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 12px;
+    font-size: 2.2rem;
+}
+#services .box h2{
+    font-size:large;
+    font-style: italic;
+}
+#services .box p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:0.89rem;
+    padding: 2px;
+    margin: 5px;
+}
+#client-section{
+    height: 344px;
+    align-items: center;
+    position: relative;
+    background-image: url("../images/background.jpg");
+}
+#clients{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#clients img{ 
+    padding: 47px;
+    height:125px;
+    width: 125px;
+    border-radius: 100px;
+}
+.clients-item{
+    padding: 34px;
+}
+#client-section h1{
+    text-align: center;
+    font-size: 2.2rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#contact{
+    height: 344px;
+    position:relative;
+    background-image: url("../images/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12px;
+    margin-top: 9px;
+    opacity: 0.8;
+}
+#contact h1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.2rem;
+}
+
+.form-group{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box form{
+    width: 40%;
+
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style:italic;
+}
+
+
